@@ -5,6 +5,7 @@ pipeline {
         stage('Build Stage') {
             steps {
                 echo 'Build Passed'
+                exit 1
             }
         }
 
